@@ -32,6 +32,7 @@ void Xuat1dn(DoanhNghiep &x)
 	cout<<"Von dieu le:"<<x.vondieule<<"\t";
 	cout<<"so nhan vien:"<<x.sonhanvien<<endl;
 }
+// Nhap danh sach doanh nghiep
 void NhapDanhSach(DoanhNghiep a[], int n)
 {
 	for(int i=0;i<n;i++)
@@ -40,6 +41,7 @@ void NhapDanhSach(DoanhNghiep a[], int n)
 		cout<<endl;
 	}
 }
+// Xuat danh sach
 void XuatDanhSach(DoanhNghiep a[], int n)
 {
 	for(int i=0;i<n;i++)
@@ -48,6 +50,7 @@ void XuatDanhSach(DoanhNghiep a[], int n)
 		cout<<endl;
 	}
 }
+// sap xep danh sach theo von dieu le
 void SapXepDanhSach(DoanhNghiep a[], int n)
 {
 	DoanhNghiep temp;
@@ -89,6 +92,7 @@ int TimDauCach(char Madn[])
 	}
 	return 0;
 }
+// Danh sach doanh nghiep khong hop le
 void DN_KhongHopLe(DoanhNghiep a[], int n)
 {
 	int dem=0;
