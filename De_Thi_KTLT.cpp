@@ -6,8 +6,8 @@ using namespace std;
 
 struct DoanhNghiep
 {
-	char Madn[20];
-	char giamdoc[20];
+	char Madn[100];
+	char giamdoc[100];
 	float vondieule;
 	int sonhanvien;
 };
@@ -76,7 +76,7 @@ void LocChon(DoanhNghiep a[], int n)
 {
 	for(int i=0;i<n;i++)
 	{
-		if(a[i].sonhanvien>300&&a[i].Madn[0]=='D'&&a[i].Madn[1]=='N')
+		if(a[i].sonhanvien>=300&&a[i].Madn[0]=='D'&&a[i].Madn[1]=='N')
 		{
 			In(a[i]);
 			cout<<endl;
@@ -98,7 +98,7 @@ void DN_KhongHopLe(DoanhNghiep a[], int n)
 	int dem=0;
 	for(int i=0;i<n;i++)
 	{
-		if(a[i].vondieule<10||TimDauCach(a[i].Madn)==1)
+		if(a[i].vondieule<=10||TimDauCach(a[i].Madn)==1)
 			dem++;
 	}
 	cout<<"So doanh nghiep khong hop le:"<<dem<<endl;
