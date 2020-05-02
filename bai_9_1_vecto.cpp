@@ -1,3 +1,4 @@
+// lap trinh huong doi tuong
 #include<iostream>
 using namespace std;
 class VECTO{
