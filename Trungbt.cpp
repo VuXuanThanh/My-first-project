@@ -7,13 +7,7 @@ float   xwmin, ywmin, xwmax, ywmax;
 float tlx, tly;
 int xvmin, yvmin, xvmax, yvmax;
 
-void Taokhung(float x1, float y1, float x2, float y2)
-{
-    xwmin=x1;
-    ywmin=y1;
-    xwmax=x2;
-    ywmax=y2;
-}
+
 
 void Taomanhinh(int x1, int y1, int x2, int y2)
 {
