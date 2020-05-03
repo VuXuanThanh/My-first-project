@@ -1,8 +1,8 @@
 #include<graphics.h>
 #include<math.h>
 using namespace std;
-// bai tap kiem tra
-// xay dung ham bac 3 theo de bai co ve he truc toa do
+
+// xay dung ham bac y = -x^3+3x+2 theo de bai co ve he truc toa do
 float   xwmin, ywmin, xwmax, ywmax;
 float tlx, tly;
 int xvmin, yvmin, xvmax, yvmax;
