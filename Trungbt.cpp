@@ -1,7 +1,7 @@
 #include<graphics.h>
 #include<math.h>
 using namespace std;
-// Xay dung ham ve do thi ham so co he truc toa do
+
 float   xwmin, ywmin, xwmax, ywmax;
 float tlx, tly;
 int xvmin, yvmin, xvmax, yvmax;
